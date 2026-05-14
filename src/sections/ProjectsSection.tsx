@@ -26,9 +26,9 @@ import actionary2 from '../assets/공부량.png';
 import actionary3 from '../assets/POST_WHOLE.png';
 import actionary4 from '../assets/File Document page.png';
 import actionary5 from '../assets/SIDE BAR.png';
-import UNITRIP1 from '../assets/UniTrip1.png';
-import UNITRIP2 from '../assets/UniTrip2.png';
-import UNITRIP3 from '../assets/UniTrip3.png';
+import UNITRIP1 from '../assets/UNITRIP1.png';
+import UNITRIP2 from '../assets/UNITRIP2.png';
+import UNITRIP3 from '../assets/UNITRIP3.png';
 import { type Project } from '../type';
 
 const ProjectsSection = () => {
