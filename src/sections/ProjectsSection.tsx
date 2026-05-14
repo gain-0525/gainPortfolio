@@ -29,9 +29,10 @@ import actionary5 from '../assets/SIDE BAR.png';
 import UNITRIP1 from '../assets/UniTrip1.png';
 import UNITRIP2 from '../assets/UniTrip2.png';
 import UNITRIP3 from '../assets/UniTrip3.png';
+import { type Project } from '../type';
 
 const ProjectsSection = () => {
-  const [selectedProject, setSelectedProject] = useState<any>(null);
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const projects = [
     {
       title: 'MuseAi',
