@@ -43,6 +43,7 @@ import KHP2 from "../assets/KHP2.png";
 import KHP3 from "../assets/KHP3.png";
 import KHP4 from "../assets/KHP4.png";
 import KHP5 from "../assets/KHP5.png";
+import cashflowmate from "../assets/캐시플로우 메이트 현금흐름 대시보드.png";
 import { type Project } from "../type";
 
 const ProjectsSection = () => {
@@ -372,6 +373,46 @@ const ProjectsSection = () => {
         {
           image: KHP5,
           description: "KHP 서비스 야간 모드 제공",
+        },
+      ],
+    },
+    {
+      title: "CashFlow Mate",
+      context: "SW MVP 경진대회",
+      role: "FullStack",
+      description:
+        "소상공인을 위한 매출·정산·대사·지출 관리 및 현금흐름 예측 통합 플랫폼",
+      buttonText: "시연 영상",
+
+      image: cashflowmate,
+
+      links: {
+        demo: "https://tv.kakao.com/v/457248713",
+        github:
+          "https://github.com/SoluxteamMerge/30th_1_Merge_UniTrip_Frontend",
+      },
+
+      highlights: [
+        "매출 및 정산 내역 관리",
+        "매출·정산 데이터 대사",
+        "지출 내역 관리",
+        "현금흐름 예측",
+        "자금흐름 캘린더",
+        "재무 현황 대시보드",
+      ],
+      details: [
+        {
+          image: UNITRIP1,
+          description: "메인 화면",
+        },
+
+        {
+          image: UNITRIP2,
+          description: "MT용 룰렛 판",
+        },
+        {
+          image: UNITRIP3,
+          description: "개인 정보 수정",
         },
       ],
     },
