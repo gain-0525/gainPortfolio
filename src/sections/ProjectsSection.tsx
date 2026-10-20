@@ -44,6 +44,12 @@ import KHP3 from "../assets/KHP3.png";
 import KHP4 from "../assets/KHP4.png";
 import KHP5 from "../assets/KHP5.png";
 import cashflowmate from "../assets/캐시플로우 메이트 현금흐름 대시보드.png";
+import CASHFLOW_1 from "../assets/CASHFLOW_1.png";
+import CASHFLOW_2 from "../assets/CASHFLOW_2.png";
+import CASHFLOW_3 from "../assets/CASHFLOW_3.png";
+import CASHFLOW_4 from "../assets/CASHFLOW_4.png";
+import CASHFLOW_5 from "../assets/CASHFLOW_5.png";
+import CASHFLOW_6 from "../assets/CASHFLOW_6.png";
 import { type Project } from "../type";
 
 const ProjectsSection = () => {
@@ -382,14 +388,13 @@ const ProjectsSection = () => {
       role: "FullStack",
       description:
         "소상공인을 위한 매출·정산·대사·지출 관리 및 현금흐름 예측 통합 플랫폼",
-      buttonText: "시연 영상",
+      buttonText: "Link",
 
       image: cashflowmate,
 
       links: {
-        demo: "https://tv.kakao.com/v/457248713",
-        github:
-          "https://github.com/SoluxteamMerge/30th_1_Merge_UniTrip_Frontend",
+        demo: "https://cash-flow-mate-frontend.vercel.app/",
+        github: "https://github.com/gain-0525/CashFlow-Mate-Frontend",
       },
 
       highlights: [
@@ -402,17 +407,29 @@ const ProjectsSection = () => {
       ],
       details: [
         {
-          image: UNITRIP1,
-          description: "메인 화면",
+          image: CASHFLOW_1,
+          description: "대시보드",
         },
 
         {
-          image: UNITRIP2,
-          description: "MT용 룰렛 판",
+          image: CASHFLOW_2,
+          description: "매출 관리 페이지",
         },
         {
-          image: UNITRIP3,
-          description: "개인 정보 수정",
+          image: CASHFLOW_3,
+          description: "정산 관리 페이지",
+        },
+        {
+          image: CASHFLOW_4,
+          description: "대사 관리 페이지",
+        },
+        {
+          image: CASHFLOW_5,
+          description: "지출 관리 페이지",
+        },
+        {
+          image: CASHFLOW_6,
+          description: "현금흐름 예측 페이지",
         },
       ],
     },
