@@ -18,7 +18,7 @@ const AboutSection = () => {
               <br />
               연결하고 협업하며
               <br />
-              생각하는 개발자입니다.수정본
+              생각하는 개발자입니다.
             </h2>
 
             <p className="mt-10 max-w-[620px] text-[17px] leading-8 text-[#5f5a55]">
