@@ -1,4 +1,17 @@
 const AboutSection = () => {
+  const skills = [
+    "React",
+    "TypeScript",
+    "Java",
+    "Spring Boot",
+    "Spring Data JPA",
+    "MySQL",
+    "AWS EC2",
+    "Python",
+    "Tailwind CSS",
+    "Git",
+  ];
+
   return (
     <section id="about" className="scroll-mt-32 bg-[#f8f7f4] px-8 py-32">
       <div className="mx-auto max-w-[1100px]">
@@ -14,25 +27,25 @@ const AboutSection = () => {
           {/* Left */}
           <div>
             <h2 className="max-w-[700px] text-5xl leading-[1.15] tracking-tight text-[#1a1714]">
-              AI 기술을 사용자 경험과
+              사용자 경험부터 서버 구조까지,
               <br />
-              연결하고 협업하며
-              <br />
-              생각하는 개발자입니다.
+              서비스의 전체 흐름을 이해하고 구현하는 풀스택 개발자입니다.
             </h2>
 
             <p className="mt-10 max-w-[620px] text-[17px] leading-8 text-[#5f5a55]">
-              LLM과 AI 기반 서비스에 관심을 가지고 있으며, 사용자에게 자연스럽고
-              직관적인 AI 경험을 제공하는 인터페이스를 고민합니다.
+              React와 TypeScript를 기반으로 사용자 중심의 웹 서비스를 개발하며,
+              Java와 Spring Boot를 활용한 백엔드 개발까지 경험을 확장하고
+              있습니다.
               <br />
               <br />
-              React와 TypeScript 기반의 프론트엔드 개발을 공부하고 있으며,
-              최근에는 AI Assistant, 자동화, RAG 등 AI 서비스 구조에도 관심을
-              가지고 학습하고 있습니다.
+              REST API 설계, 데이터베이스 모델링, 데이터 정합성 검증, 예외
+              처리부터 AWS 기반 서버 배포까지 직접 수행하며 서비스의 전체 구조를
+              이해하고자 노력합니다.
               <br />
               <br />
-              단순히 화면을 구현하는 것을 넘어, AI 기능이 실제 사용자 경험
-              안에서 어떻게 자연스럽게 동작할 수 있을지 고민합니다.
+              단순히 기능을 구현하는 것을 넘어, 안정적인 데이터 처리와 직관적인
+              사용자 경험을 함께 고민하며 실제 문제를 해결하는 개발자를
+              지향합니다.
             </p>
           </div>
 
@@ -49,7 +62,7 @@ const AboutSection = () => {
                   <h3 className="text-xl text-[#1a1714]">Gain Kim</h3>
 
                   <p className="mt-1 text-sm text-[#7a7570]">
-                    Frontend Developer
+                    Full Stack Developer
                   </p>
                 </div>
               </div>
@@ -64,6 +77,7 @@ const AboutSection = () => {
                     kimgain0525@sookmyung.ac.kr
                   </p>
                 </div>
+
                 <div>
                   <p className="mb-1 text-[12px] uppercase tracking-[0.12em] text-[#9a948e]">
                     Education
@@ -80,7 +94,7 @@ const AboutSection = () => {
                   </p>
 
                   <p className="text-[15px] leading-7 text-[#3f3a36]">
-                    Frontend · UI/UX · Web Accessibility · AI Assistant · RAG
+                    Full Stack · Backend · Cloud · AI
                   </p>
                 </div>
 
@@ -90,16 +104,7 @@ const AboutSection = () => {
                   </p>
 
                   <div className="mt-3 flex flex-wrap gap-2">
-                    {[
-                      "React",
-                      "TypeScript",
-                      "TailwindCSS",
-                      "Vite",
-                      "Python",
-                      "OpenAI API",
-                      "n8n",
-                      "Git",
-                    ].map((skill) => (
+                    {skills.map((skill) => (
                       <span
                         key={skill}
                         className="rounded-full bg-[#f4f2ef] px-3 py-1.5 text-sm text-[#5f5a55]"
@@ -116,7 +121,6 @@ const AboutSection = () => {
             <div className="mt-10 flex items-center justify-between border-t border-black/[0.06] pt-6">
               <div>
                 <p className="text-sm text-[#7a7570]">Based in</p>
-
                 <p className="mt-1 text-[#1a1714]">Seoul, South Korea</p>
               </div>
 

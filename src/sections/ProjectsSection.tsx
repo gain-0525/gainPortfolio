@@ -384,7 +384,7 @@ const ProjectsSection = () => {
     },
     {
       title: "CashFlow Mate",
-      context: "SW MVP 경진대회",
+      context: "SW MVP 경진대회 대상 수상",
       role: "FullStack",
       description:
         "소상공인을 위한 매출·정산·대사·지출 관리 및 현금흐름 예측 통합 플랫폼",

@@ -1,6 +1,14 @@
 const ActivitiesSection = () => {
   const activities = [
     {
+      title: "2026 SW MVP 경진대회",
+      role: "대상 · Full Stack Developer (개인 참가)",
+      period: "2026.10",
+      description:
+        "소상공인 현금흐름 관리 플랫폼 CashFlow Mate를 단독 개발하여 대상을 수상했습니다. Java, Spring Boot, JPA, MySQL 기반으로 REST API와 데이터베이스를 설계하고, 매출·정산 데이터 정합성 검증, CSV 업로드 예외 처리, 현금흐름 예측 기능을 구현했습니다. React와 TypeScript로 프론트엔드를 개발하고 AWS EC2에 백엔드 서버를 배포하며 서비스 개발 전 과정을 수행했습니다.",
+    },
+
+    {
       title: "GPM",
       role: "기획부",
       period: "2026.02 - Present",
